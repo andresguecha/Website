@@ -279,6 +279,8 @@ width: 20px;
 }
 
 /*========== BUTTONS ==========*/
+
+
 .button{
   display: inline-block;
   background-color: var(--first-color);
@@ -289,7 +291,47 @@ width: 20px;
 }
 
 .button:hover{
-  background-color: var(--first-color-alt);
+  background-color: var(--body-color);
+  color: var(--first-color-alt);
+
+}
+
+/*** ESTILOS BOTÓN SLIDE BOTTOM ***/
+.button {
+  background: #fff; /* color de fondo */
+  color:var(--first-color); /* color de fuente */
+  border: 2px solid var(--first-color); /* tamaño y color de borde */
+  padding: 10px 15px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.button:hover {
+  color: #fff; /* color de fuente hover */
+}
+.button::after {
+  content: "";
+  background:var(--first-color); /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 100%;
+  bottom: -100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.button:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
 /*========== ABOUT ==========*/
