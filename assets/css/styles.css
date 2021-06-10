@@ -274,9 +274,11 @@ width: 20px;
 }
 
 .home__img{
-  width: 300px;
+  width: 400px;
   justify-self: center;
 }
+
+
 
 /*========== BUTTONS ==========*/
 
@@ -344,7 +346,7 @@ width: 20px;
 }
 
 .about__img{
-  width: 280px;
+  width: 400px;
   border-radius: .5rem;
   justify-self: center;
 }
