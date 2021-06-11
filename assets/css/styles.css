@@ -278,6 +278,15 @@ width: 20px;
   justify-self: center;
 }
 
+/*========== Efectos Escritura Dentro del Home ==========*/
+
+
+.home__data .Skill {
+  font-weight: var(--biggest-font-size);
+  color: var(--first-color);
+  font-style: normal
+}
+
 
 
 /*========== BUTTONS ==========*/
