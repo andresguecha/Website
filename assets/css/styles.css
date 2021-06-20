@@ -262,13 +262,13 @@ width: 20px;
 }
 
 .home__title{
-  font-size: var(--biggest-font-size);
+  font-size: var(--h1-font-size);
   color: var(--first-color);
-  margin-bottom: var(--mb-1);
+ margin-bottom: var(--mb-1);
 }
 
 .home__subtitle{
-  font-size: var(--h1-font-size);
+  font-size: var(--small-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-4);
 }
